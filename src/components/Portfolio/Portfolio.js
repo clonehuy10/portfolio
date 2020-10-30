@@ -3,11 +3,15 @@ import './Portfolio.scss'
 
 import Card from 'react-bootstrap/Card'
 
+import tictac from './tictac.gif'
+import fakebook from './fakebook.gif'
+import bucketlist from './bucketlist.gif'
+
 const Portfolio = () => {
   return (
     <div className='row'>
       <Card className='col-10 col-md-5 m-4'>
-        <Card.Img variant="top" src='/image/tictac.gif' />
+        <Card.Img variant="top" src={tictac} />
         <Card.Body>
           <Card.Title>Tic Tac Toe</Card.Title>
           <Card.Text>
@@ -28,7 +32,7 @@ const Portfolio = () => {
       </Card>
 
       <Card className='col-10 col-md-5 m-4'>
-        <Card.Img variant="top" src='/image/fakebook.gif' />
+        <Card.Img variant="top" src={fakebook} />
         <Card.Body>
           <Card.Title>Fakebook</Card.Title>
           <Card.Text>
@@ -49,7 +53,7 @@ const Portfolio = () => {
       </Card>
 
       <Card className='col-10 col-md-5 m-4'>
-        <Card.Img variant="top" src='/image/bucketlist.gif' />
+        <Card.Img variant="top" src={bucketlist} />
         <Card.Body>
           <Card.Title>Bucketlist</Card.Title>
           <Card.Text>
