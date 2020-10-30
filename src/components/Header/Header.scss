@@ -1,0 +1,57 @@
+.nav {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  flex-direction: row;
+
+  .item {
+    padding: 10px;
+  };
+}
+
+#sideNav .nav .item {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 14rem;
+    height: 100vh;
+  }
+  #sideNav .brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(220, 220, 220, 0.9);
+    border-radius: 15px;
+  }
+  #sideNav .collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .collapse .nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .collapse .nav .item {
+    display: block;
+    color: white;
+  }
+}

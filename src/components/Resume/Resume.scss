@@ -1,0 +1,47 @@
+.fieldBox {
+  border-right: 1px solid rgb(38, 220, 217);
+  
+  @media (min-width: 990px) and (max-width: 1100px) {
+    margin-left: 40px;
+  }
+}
+
+.skillBar {
+  height: 10px;
+  margin-bottom: 10px;
+  margin-top: -15px;
+  border: 0.2px solid yellow;
+
+  @media (min-width: 576px) {
+    width: 150%;
+  }
+}
+
+.skillText {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.skillList {
+  font-size: 15px;
+  font-weight: bold;
+
+  @media (min-width: 576px) {
+    margin-left: 1px;
+    width: 200%;
+  }
+}
+
+.skillTitle {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(18, 185, 215);
+}
+
+.textFieldTitle {
+  border-bottom: 1px solid rgb(18, 185, 215);
+}
+
+.subheading {
+  color: rgb(139, 147, 147);
+}
