@@ -4,11 +4,11 @@ import Navbar from 'react-bootstrap/Navbar'
 
 import './Header.scss'
 
-import profile from './profile.jpg'
+import profile from './profile.jpeg'
 
 const Header = () => (
   <Fragment>
-    <Navbar className='fixed-top' expand='lg' bg='dark' variant='dark' id='sideNav'>
+    <Navbar className='fixed-top' expand='lg' id='sideNav'>
       <Navbar.Brand className='brand' href='#'>
         <span className="d-none d-lg-block">
           <img
@@ -16,9 +16,9 @@ const Header = () => (
             src={profile}
             alt='' />
         </span>
-        <span className="d-block d-lg-none">Huy Nguyen</span>
+        <span className="d-block d-lg-none collapseText">Huy Nguyen</span>
       </Navbar.Brand>
-      <Navbar.Toggle className='toggler' aria-controls='basic-navbar-nav' />
+      <Navbar.Toggle className='toggler collapseText' aria-controls='basic-navbar-nav' />
       <Navbar.Collapse className='collapse' id='basic-navbar-nav'>
         <Nav className='ml-auto nav'>
           <Nav.Link className='item' href='#/'>About Me</Nav.Link>

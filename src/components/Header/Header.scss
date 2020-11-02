@@ -1,3 +1,5 @@
+$textWhite: rgb(220, 219, 219);
+
 .nav {
   position: relative;
   display: flex;
@@ -11,10 +13,18 @@
   };
 }
 
+#sideNav {
+  background-color: rgb(42, 76, 134);
+}
+
 #sideNav .nav .item {
   font-weight: 800;
   letter-spacing: 0.05rem;
-  color: white;
+  color: $textWhite;
+}
+
+.collapseText {
+  color: $textWhite;
 }
 
 @media (min-width: 992px) {
@@ -27,6 +37,10 @@
     flex-direction: column;
     width: 14rem;
     height: 100vh;
+
+    @media (min-width: 900px) and (max-width: 1150px) {
+      width: 11rem;
+    }
   }
   #sideNav .brand {
     display: flex;
@@ -36,7 +50,7 @@
   #sideNav .brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(220, 220, 220, 0.9);
+    border: 0.1rem solid rgba(220, 220, 220, 0.9);
     border-radius: 15px;
   }
   #sideNav .collapse {
@@ -52,6 +66,6 @@
   }
   #sideNav .collapse .nav .item {
     display: block;
-    color: white;
+    color:$textWhite;
   }
 }

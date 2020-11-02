@@ -1,0 +1,33 @@
+$niceBlue: #121c78;
+
+h2 {
+  color: $niceBlue;
+
+  @media (max-width: 770px) {
+    font-size: 135%;
+  }
+}
+
+.formHead {
+  border-bottom: 1px solid rgb(12, 142, 182);
+  padding: 3px;
+}
+
+.formText {
+  font-size: 120%;
+  color: $niceBlue;
+}
+
+.formBox {
+  margin: auto;
+}
+
+.formButton {
+  border: 1px solid $niceBlue;
+  border-radius: 5px;
+  color: $niceBlue;
+}
+
+textarea.form-control {
+  height: 100px;
+}

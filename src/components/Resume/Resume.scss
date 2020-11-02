@@ -10,7 +10,7 @@
   height: 10px;
   margin-bottom: 10px;
   margin-top: -15px;
-  border: 0.2px solid yellow;
+  border: 0.2px solid rgb(38, 220, 217);
 
   @media (min-width: 576px) {
     width: 150%;
@@ -43,5 +43,9 @@
 }
 
 .subheading {
-  color: rgb(139, 147, 147);
+  color: rgba(214, 215, 215, 0.927);
+}
+
+.subheading2 {
+  color: rgb(36, 36, 36);
 }
