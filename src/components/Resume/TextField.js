@@ -5,30 +5,30 @@ const TextField = () => {
     <div>
       <div>
           <h1 className="mb-5">Education</h1>
-          <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div className="d-flex flex-column flex-md-row justify-content-between mb-2">
               <div className="flex-grow-1">
                   <h4 className="mb-0 textFieldTitle">General Assembly</h4>
                   <div className="subheading mb-3">Software Engineering Immersive</div>
-                  <div className='subheading2'>Fullstack Software Engineering</div>
+                  {/* <div className='subheading2'>Fullstack Software Engineering</div> */}
               </div>
               <div className="flex-shrink-0"><span className="text-info">September 2020 - October 2020</span></div>
           </div>
-          <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div className="d-flex flex-column flex-md-row justify-content-between mb-2">
               <div className="flex-grow-1">
                   <h4 className="mb-0 textFieldTitle">Bunker Hill Community College</h4>
-                  <div className="subheading mb-3">Associate Degree</div>
-                  <div className='subheading2'>Accounting</div>
+                  <div className="subheading mb-3">Associate Degree in Accounting</div>
+                  {/* <div className='subheading2'>Accounting</div> */}
               </div>
               <div className="flex-shrink-0"><span className="text-info">September 2018 - June 2020</span></div>
           </div>
-          <div className="d-flex flex-column flex-md-row justify-content-between">
+          {/* <div className="d-flex flex-column flex-md-row justify-content-between">
               <div className="flex-grow-1">
                   <h4 className="mb-0 textFieldTitle">Umass of Boston</h4>
                   <div className="subheading mb-3">Undergraduate</div>
                   <div className='subheading2'>Computer Science</div>
               </div>
               <div className="flex-shrink-0"><span className="text-info">September 2014 - June 2016</span></div>
-          </div>
+          </div> */}
       </div>
       <br /><br /><br /><br />
       <div className='mt-10'>
@@ -46,7 +46,7 @@ const TextField = () => {
               <div className="flex-grow-1">
                   <h4 className="mb-0 textFieldTitle">Tax Preparer</h4>
                   <div className="subheading mb-3">Bunker Hill Community College</div>
-                  <div className='subheading2'>Volunteer Income Tax Assistance at Tax Site</div>
+                  <div className='subheading2'>Excellent client service orientation with an ability to handle pressure in a positive, professional manner.</div>
               </div>
               <div className="flex-shrink-0"><span className="text-info">January 2020 - June 2020</span></div>
           </div>

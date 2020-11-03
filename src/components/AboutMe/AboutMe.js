@@ -31,7 +31,7 @@ const AboutMe = () => (
           </p>
           <Link className='aboutLink' to='/contact'><Button variant="outline-info">Contact Me</Button></Link>
           <Link className='aboutLink' to='/resume'><Button variant="outline-info">Resume</Button></Link>
-          <Link className='aboutLink' href="https://drive.google.com/uc?export=download&id=1ua36Qcs-iukQXiXJt8zegsYzn28AWs51">
+          <Link className='aboutLink' href="https://drive.google.com/uc?export=download&id=1cxNYX2LCj34lYHrdd6TOwxYgkD_qjw_5">
             <Button variant='outline-info'>Download Resume</Button>
           </Link>
         </div>
