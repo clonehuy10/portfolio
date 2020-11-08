@@ -34,7 +34,7 @@ const AboutMe = () => (
           </p>
           <Link className='aboutLink' to='/contact'><Button variant="outline-info">Contact Me</Button></Link>
           <Link className='aboutLink' to='/resume'><Button variant="outline-info">Resume</Button></Link>
-          <a className='aboutLink' href="https://drive.google.com/file/d/1qYs4bBbtNjLuIfbXGDMf3Eym0B2AeAby/view?usp=sharing">
+          <a target="_blank" rel="noopener noreferrer" className='aboutLink' href="https://drive.google.com/file/d/1qYs4bBbtNjLuIfbXGDMf3Eym0B2AeAby/view?usp=sharing">
             <Button variant='outline-info'>Download Resume</Button>
           </a>
         </div>
