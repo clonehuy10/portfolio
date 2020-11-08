@@ -18,7 +18,7 @@ const AboutMe = () => (
           <h1>Huy Nguyen</h1>
           <p className='tagline'>Full-stack Developer</p>
           <p>
-            Hey, my name is Huy Nguyen. I'm an accountant turned into a software engineer. I am naturally curious, a problem solver, and a fast learner.
+            Hey, my name is Huy Nguyen. I'm a software engineer with a background in accounting and customer service. I am naturally curious, a problem solver, and a fast learner.
           </p>
           <p>
             Recently, I just graduated from General Assembly, and I plan to learn more about Python and create some project using it. I believe Python is a strong language which can be used both on front-end and back-end development.
@@ -27,13 +27,16 @@ const AboutMe = () => (
             So are you looking for a hard-working, communicative & caring developer? I am super excited to work on ambitious projects with positive people.
           </p>
           <p>
+            You can view all my works <Link className='aboutLink' to='/portfolio'>here</Link>
+          </p>
+          <p>
             Check out my resume or contact me below
           </p>
           <Link className='aboutLink' to='/contact'><Button variant="outline-info">Contact Me</Button></Link>
           <Link className='aboutLink' to='/resume'><Button variant="outline-info">Resume</Button></Link>
-          <Link className='aboutLink' href="https://drive.google.com/uc?export=download&id=1cxNYX2LCj34lYHrdd6TOwxYgkD_qjw_5">
+          <a className='aboutLink' href="https://drive.google.com/file/d/1qYs4bBbtNjLuIfbXGDMf3Eym0B2AeAby/view?usp=sharing">
             <Button variant='outline-info'>Download Resume</Button>
-          </Link>
+          </a>
         </div>
       </div>
 
@@ -58,3 +61,5 @@ const AboutMe = () => (
 )
 
 export default AboutMe
+
+// "https://drive.google.com/uc?export=download&id="
